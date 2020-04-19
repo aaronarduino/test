@@ -1,6 +1,9 @@
 document.onload = function() {
-    var ancestor = document.getElementById('la1-videoContainer'),
-    descendents = ancestor.getElementsByTagName('*');
+    var ancestor = document.getElementById('la1-videoContainer');
+    while (ancestor == null){
+        ancestor = document.getElementById('la1-videoContainer');
+    }
+    var descendents = ancestor.getElementsByTagName('*');
 
     var i, e, d;
     for (i = 0; i < descendents.length; ++i) {
