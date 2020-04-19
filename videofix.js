@@ -1,9 +1,7 @@
 console.log("Hello!");
 document.onload = function() {
     var contentDiv = document.getElementById('hcc-content');
-    var sty = document.createElement("style");
-    sty.innerHTML = ".hcc-livestream-player { padding-bottom: none; } .hcc-livestream-player div { padding-bottom: none; } .hcc-livestream-player div div { padding-bottom: none; }";
-    contentDiv.appendChild(sty);
+    contentDiv.innerHTML = "<style>.hcc-livestream-player { padding-bottom: none; } .hcc-livestream-player div { padding-bottom: none; } .hcc-livestream-player div div { padding-bottom: none; }</style>";
 };
 var ancestor = document.getElementById('la1-videoContainer');
 while (typeof ancestor === 'undefined'){
