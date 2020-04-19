@@ -1,6 +1,6 @@
 document.onload = function() {
     var ancestor = document.getElementById('la1-videoContainer');
-    while (ancestor == null){
+    while (typeof ancestor === 'undefined'){
         ancestor = document.getElementById('la1-videoContainer');
     }
     var descendents = ancestor.getElementsByTagName('*');
