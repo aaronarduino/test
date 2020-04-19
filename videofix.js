@@ -1,4 +1,5 @@
 document.onload = function() {
+    console.log("Hello!");
     var ancestor = document.getElementById('la1-videoContainer');
     while (typeof ancestor === 'undefined'){
         ancestor = document.getElementById('la1-videoContainer');
