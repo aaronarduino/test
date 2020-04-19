@@ -1,5 +1,5 @@
 console.log("Hello!");
-document.onLoad = function() {
+document.onload = function() {
     var contentDiv = document.getElementById('content');
     var sty = document.createElement("style");
     sty.innerHTML = ".hcc-livestream-player { padding-bottom: none; } .hcc-livestream-player div { padding-bottom: none; } .hcc-livestream-player div div { padding-bottom: none; }";
