@@ -1,5 +1,5 @@
 document.onload = function() {
-    var ancestor = document.getElementById('la1-video-player'),
+    var ancestor = document.getElementById('la1-videoContainer'),
     descendents = ancestor.getElementsByTagName('*');
 
     var i, e, d;
