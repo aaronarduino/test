@@ -1,4 +1,4 @@
-var ancestor = document.getElementById('id'),
+var ancestor = document.getElementById('la1-video-player'),
     descendents = ancestor.getElementsByTagName('*');
 
 var i, e, d;
